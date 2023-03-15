@@ -18,6 +18,13 @@ app.post("/methds",(req,res) => {
 });
 
 app.delete("/methds",(req,res) => {
+    const deleteItem = req.body.Amjad;
+
+    myArray.find((elem,index) => {
+        if(elem === deleteItem){
+            myArray.splice(index,1);
+        }
+    });
     res.status(200).send(myArray);
 });
 
