@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "nodemon" : "nodemon server.js"
+  },
+  "name": "expressjsstartup",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amjad137/expressJSStartup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amjad137/expressJSStartup/issues"
+  },
+  "homepage": "https://github.com/Amjad137/expressJSStartup#readme",
+  "description": ""
+}
